@@ -1,0 +1,11 @@
+{
+  "name": "flow-examples",
+  "version": "1.0.0",
+  "description": "Example of flow types",
+  "main": "index.js",
+  "author": "Augustin Le Fèvre <aulefevre@kilix.fr>",
+  "license": "MIT",
+  "devDependencies": {
+    "flow-bin": "^0.81.0"
+  }
+}
