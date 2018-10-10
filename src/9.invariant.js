@@ -2,7 +2,8 @@
 const maybeString: ?string = "a";
 
 // It's not perfect, some wrong conditions will still mute the errors
-// But it's
+// But it's better than nothing, and a wrong condition will trigger an error anyway
+// so it's likely this won't happen
 if (typeof maybeString !== "string")
   throw new Error("maybeString should be defined");
 console.log(`${maybeString}`);
