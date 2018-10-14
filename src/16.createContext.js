@@ -3,8 +3,8 @@ import * as React from "react";
 
 type Viewer = { firstname: string };
 
-// People often pass a "wrong" default to mute flow, an object with empty strings, but often, it
-// doesn't make sense
+// People often pass a "wrong" default to mute flow, an object with empty
+// strings, it doesn't make sense
 const defaultViewer: ?Viewer = null;
 const ViewerContext = React.createContext(defaultViewer);
 

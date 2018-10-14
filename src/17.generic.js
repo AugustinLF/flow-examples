@@ -1,6 +1,9 @@
 // @flow
 import * as React from "react";
 
+// Form knows that the type of the object passed as
+// initialData corresponds to the one in its
+// children and validate props
 type Props<T> = {
   children: (model: T) => React.Node,
   initialData: T,
