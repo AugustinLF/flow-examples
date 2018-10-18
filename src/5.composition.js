@@ -6,7 +6,7 @@ type ExactSpreadPerson = { ...$Exact<Person> };
 const spreadPerson: SpreadPerson = { age: 1 };
 const exactSpreadPerson: ExactSpreadPerson = { age: 1 };
 
-// $FlowFixMe age is a maybe string (?string) in SpreadPerson
+// $FlowFixMe age is a maybe number (?number) in SpreadPerson
 const age: number = spreadPerson.age;
 const maybeAge: ?number = spreadPerson.age;
 const correctAge: number = exactSpreadPerson.age;
